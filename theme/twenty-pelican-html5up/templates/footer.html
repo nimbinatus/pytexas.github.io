@@ -2,7 +2,7 @@
 <footer id="footer">
 
     <ul class="icons">
-      {% for title, link in SOCIAL %}
+      {% for title, link in SOCIAL.items() %}
         <li>
           <a href="{{ link }}" class="icon circle fa-brands fa-{{ title | lower }}"><span class="label">{{ title }}</span></a>
         </li>
